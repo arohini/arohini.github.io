@@ -106,7 +106,26 @@
       font-family: "Gentium Book Basic", Georgia, serif;
       font-size: 2em;
     }
-
+    .content {
+      position: fixed;
+      font-size: 20px;
+      bottom: 180;
+      left: 250;
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+    }
+    .profile-header {
+      position: fixed;
+      font-size: 50px;
+      bottom: 700;
+      left: 500;
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+    }
     .masthead-heading {
       margin-top: -0.2em;
       font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -173,7 +192,62 @@
   <video autoplay muted loop id="myVideo">
     <source src="profile_full_bg.mp4" type="video/mp4" />
   </video>
-  <section class="introduction-section">
+
+  <div class="content">
+    <img src="profile.jpg" alt="Profile Picture" class="profile-img" />
+    <h1 class="profile-header">Hey... <i>WELCOME !!</i></h1>
+    <h1>About Me</h1>
+    <p>
+      I'm Rohini a Data Engineer enjoying playing around with the daya and
+      scaling the product<br />
+      by designing and implementing the system using python.
+    </p>
+    <p>
+      I love to build data pipelines, automating the clerical jobs, building
+      framework, API design & development. <br />Also exploring
+      <i>NLP-based AI applications</i> as well as in the journey of gaining some
+      experience in mentoring.
+    </p>
+
+    <h1>Little More...</h1>
+    <p>
+      My favorite hobbies are cycling
+      <i>
+        you can follow my
+        <a
+          class="css-is-deranged"
+          href="https://www.strava.com/athletes/138500484"
+          >STRAVA</a
+        >
+        for more info..</i
+      >
+      <br />
+      playing badminton, Swimming, Hiking, Traveling.. <br />
+      and recently started with my balcony garderning and seems to more
+      interesting..
+    </p>
+
+    <p>Say hi to me on these social networks:</p>
+    <ul class="social">
+      <li>
+        <a class="css-is-deranged" href="https://github.com/arohini">GitHub</a>
+      </li>
+      <br />
+      <li>
+        <a class="css-is-deranged" href="https://twitter.com/thespdev_rohi"
+          >Twitter</a
+        >
+      </li>
+      <br />
+      <li>
+        <a class="css-is-deranged" href="https://medium.com/@rohitrip50"
+          >Medium</a
+        >
+      </li>
+      <br />
+    </ul>
+  </div>
+  <!-- <section class="introduction-section">
     <img src="profile.jpg" alt="Profile Picture" class="profile-img" />
     <h1>Introduction</h1>
     <p>
@@ -223,5 +297,5 @@
         >
       </li>
     </ul>
-  </section>
+  </section> -->
 </html>
